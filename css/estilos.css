@@ -1,0 +1,59 @@
+body
+{
+    color: white;
+    background-color: rgb(7, 7, 7);
+    padding: 10px;
+}
+.header, .h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+.header img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    animation: moveUpDown 7s infinite alternate;
+}
+
+@keyframes moveUpDown {
+    0% {
+        object-position: top;
+    }
+    100% {
+        object-position: bottom;
+    }
+}
+.header p
+{
+    text-align: justify;
+}
+.header h2{
+    text-align: left;
+}
+.header ul{
+    text-align: left;
+}
+footer
+{   
+    text-align: center;
+}
+.pie
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+footer .cita{
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1em;
+    flex-direction: column;
+    color: white;
+}
+footer img{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
